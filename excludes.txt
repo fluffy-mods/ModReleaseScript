@@ -1,0 +1,11 @@
+.git
+/Source
+.mailmap
+.pdb
+Readme.md
+.editorconfig
+.vs
+dependencies.json
+.psd
+/packages
+.sln

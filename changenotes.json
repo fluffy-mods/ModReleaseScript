@@ -1,0 +1,1115 @@
+[
+    {
+        "repo": "ShitRimWorldSays",
+        "hash": "'tformat:6f555c1f79eae7e2991230207dc8efb950715b78",
+        "date": "2020-04-22",
+        "author": "Fluffy",
+        "message": "remove extra files'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:473b3f780c1e6620ebe7497be49da0b5a69fafee",
+        "date": "2020-04-13",
+        "author": "Proxyer",
+        "message": "Update Japanese Translation for v2.8.888 (#83)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:7a0b510115ff61c7c1985c81b54407cce0246be5",
+        "date": "2020-04-12",
+        "author": "Fluffy",
+        "message": "implement auto-sort'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:ef58b607eb85bc6e4fb26d0e755dd69d321c2a71",
+        "date": "2020-04-11",
+        "author": "Proxyer",
+        "message": "Pull request: Update Japanese Translation for 2.6.886 v2 (#81)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:67a7f1a68d43f0fbd59ca3c185dc3d2073d33806",
+        "date": "2020-04-11",
+        "author": "Fluffy",
+        "message": "recache target when needed'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:66124489b1a67474f78bc788b139055ae4d9072b",
+        "date": "2020-04-11",
+        "author": "Han Yaodong",
+        "message": "Update Chinese translation for v2.6.886 (#82)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:091edf1a2310c7762f382ab2ed65b300bda075cc",
+        "date": "2020-04-11",
+        "author": "Michaël Marinetti",
+        "message": "Update French translations'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:08229f64b3b8df824a5feafe7f606d8645aff8f7",
+        "date": "2020-04-11",
+        "author": "Fluffy",
+        "message": "cache dependency targets, add auto-adding hugslib toggle'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:2e1236607b85ca2b453990d7595d1c45d87c99f8",
+        "date": "2020-03-25",
+        "author": "Fluffy",
+        "message": "cache modlist in order, improve error message for remote manifest fetch failure'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:c9ffc622f879c2dd4f56aa24238408e63da21dac",
+        "date": "2020-03-25",
+        "author": "Fluffy",
+        "message": "combine layer dummies and constraints for slightly better layer enforcement.'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:9c92f16f916850c204458dcc804306594c949201",
+        "date": "2020-03-24",
+        "author": "dodther",
+        "message": "Update russian translate (#165)'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:b220ddd0f265ecf56588ef41ec207990bba8bdd3",
+        "date": "2020-03-22",
+        "author": "Fluffy",
+        "message": "MSAGL implementation'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:dfdaf279f1332b91fc0fa05e0834e86dba2b41df",
+        "date": "2020-03-21",
+        "author": "Fluffy",
+        "message": "fix merge conflict error'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:8307bcbb7c929c0335361b549d8d32719a50af8a",
+        "date": "2020-03-21",
+        "author": "CoderChang65535",
+        "message": "update Chinese translations (#131)'"
+    },
+    {
+        "repo": "Pharmacist",
+        "hash": "'tformat:264d156643cf7ad1192349488e2f81b279f69633",
+        "date": "2020-03-21",
+        "author": "dodther",
+        "message": "Обновил перевод (#26)'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:0f8f7b14acc0fcf908f06663203c624b48015b56",
+        "date": "2020-03-21",
+        "author": "xProtosx",
+        "message": "Add Russian Language (#27)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:159c143c7cd15bf472ee062d47729be42becaa97",
+        "date": "2020-03-19",
+        "author": "Fluffy",
+        "message": "be slightly less panicky about non-critical issues'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:85ede94211612490a4df73d18b9fce7a7231eae3",
+        "date": "2020-03-19",
+        "author": "Fluffy",
+        "message": "standardize resolver actions'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:d1a0182754839980892716d1ddb3438871bd377c",
+        "date": "2020-03-19",
+        "author": "Fluffy",
+        "message": "tweak panic level of issues'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:1d20d2a408c090df09ed4dc9f3809dcd5aae93c2",
+        "date": "2020-03-19",
+        "author": "Fluffy",
+        "message": "fix incompatible mod requirements, add resolvers'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:bac6856bb053ff7ea769de70a805accf7ecabd8c",
+        "date": "2020-03-19",
+        "author": "Fluffy",
+        "message": "fix loadorder resolvers'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:10d7fda8831f48aa0e0efa1532870fc52b74f306",
+        "date": "2020-03-18",
+        "author": "Fluffy",
+        "message": "add loadorder resolvers'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:f1402abe166738e0218f9fd72cac8b72208e643c",
+        "date": "2020-03-18",
+        "author": "Fluffy",
+        "message": "remove some possible causes of null-ref in icon finding'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:c2191815bf8e30ff8d365f7ac28a29b27c307bf4",
+        "date": "2020-03-18",
+        "author": "Fluffy",
+        "message": "add toggle for version checks on steam mods [default: off]'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:249a92708d0cf685a0c01df252a3cbe34dd1ceed",
+        "date": "2020-03-18",
+        "author": "Fluffy",
+        "message": "fix dependencies on mods that have a local and stream version'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:1c343cca9c793dbd46b970000f4d4aea46ee78f5",
+        "date": "2020-03-18",
+        "author": "Fluffy",
+        "message": "issue filter options, add expansions and harmony to auto-added mods'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:ab15042c2cac8670915f329bbc3fb02444ea3751",
+        "date": "2020-03-18",
+        "author": "Proxyer",
+        "message": "Update Japanese Translation for v2.3.883 (#73)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:6bb1af247c2a8656367593887b7b26d793dd713e",
+        "date": "2020-03-18",
+        "author": "Fluffy",
+        "message": "fix non-versioned dependencies/mods'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:9eb62ab7f748fb0c30206dd5954bd831cafa5f6f",
+        "date": "2020-03-18",
+        "author": "Fluffy",
+        "message": "fix translation'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:66d84ebbb1b9cf45ac858190caf4d14c68fbc946",
+        "date": "2020-03-17",
+        "author": "Fluffy",
+        "message": "fix cross promotion preview image loading'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:93885b51758a03b50dc752a96167a71e85dd913b",
+        "date": "2020-03-17",
+        "author": "Fluffy",
+        "message": "improve issue display'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:8874ecab3034483317e552fd81f541ae7a81d36d",
+        "date": "2020-03-16",
+        "author": "Fluffy",
+        "message": "stop constantly recalculating all requirements'"
+    },
+    {
+        "repo": "Blueprints",
+        "hash": "'tformat:0eb2fbecbf45f8bd7755b45f60e6804e2c548112",
+        "date": "2020-03-08",
+        "author": "Proxyer",
+        "message": "Update Japanese Translation on 8 Mar, 2020 (#25)'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:03a4d53700a00fea5ca87a00574f4b2b4794c1c4",
+        "date": "2020-03-08",
+        "author": "Fluffy",
+        "message": "actually fix negating max negative value'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:3b0acfa5360e2211cb52942d54dd05033b05db3f",
+        "date": "2020-03-08",
+        "author": "Fluffy",
+        "message": "stop queue data persisting across games'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:a0a3f8c5ef494305ed90315486507cbf6700c85e",
+        "date": "2020-03-08",
+        "author": "Fluffy",
+        "message": "code style cleanup [resharper]'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:96432a0e9f86ef074c9f53bc97956491cdc5a79b",
+        "date": "2020-03-08",
+        "author": "Fluffy",
+        "message": "fix leading whitespace in russian translation'"
+    },
+    {
+        "repo": "StuffedFloors",
+        "hash": "'tformat:07e4caa9e156769976f1ec87e43ef000fea18d70",
+        "date": "2020-03-08",
+        "author": "Fluffy",
+        "message": "apparently pawns want floors that have a 'Floor' tag now. demanding buggers.'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:bea605e2bbc013dfcce28dd104d51112bdf35f13",
+        "date": "2020-03-08",
+        "author": "notfood",
+        "message": "Support Techprints'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:2074e64a4f75a816caf92fb1a9d3c4be3a9f2b03",
+        "date": "2020-03-07",
+        "author": "Fluffy",
+        "message": "add min-value-safe abs function'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:52185366fb312255ff60e5bcbd9a2d7dd77a5557",
+        "date": "2020-03-07",
+        "author": "Fluffy",
+        "message": "fix missing translation in settings'"
+    },
+    {
+        "repo": "Blueprints",
+        "hash": "'tformat:6c724d57b1878afd9ff3de3b6fdc88d362d781a4",
+        "date": "2020-03-06",
+        "author": "Fluffy",
+        "message": "remove .psd file from release'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:bbacf68488277af940a1a89a78c30c2c54d562b4",
+        "date": "2020-03-03",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "BirdsAndBees",
+        "hash": "'tformat:b0193da815ce37259f64ee59ab9b378fd6cc8fa2",
+        "date": "2020-03-01",
+        "author": "Fluffy",
+        "message": "fix lovin thoughts'"
+    },
+    {
+        "repo": "BirdsAndBees",
+        "hash": "'tformat:8c22f83075e300d08ab9a2b32ca406885c492380",
+        "date": "2020-03-01",
+        "author": "Fluffy",
+        "message": "fix packageId'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:214f45eb7b788effa91852e029fd4f19f837ba9a",
+        "date": "2020-03-01",
+        "author": "Fluffy",
+        "message": "add harmony dependency, remove local dlls'"
+    },
+    {
+        "repo": "BirdsAndBees",
+        "hash": "'tformat:5d8e0d5dc1d96426a736b21ddb67eb338777e4a4",
+        "date": "2020-03-01",
+        "author": "Fluffy",
+        "message": "fix hediffs and recipes'"
+    },
+    {
+        "repo": "BirdsAndBees",
+        "hash": "'tformat:063f861b36687988b31033fa2deccd188f44c420",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency, remove local dlls'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:ccecc40f962f2c6b31cba17512fa59cf68c5d2c0",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "explicitly load resources in static constructor'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:43ea61299005cde46d6a46f2fae1df3795c83c94",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:5bec93264143e6e566b341640f73b8cbe42d7a32",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency, remove local dlls'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:d155851bcc75c091c3d63396066fe4269db78d0d",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency'"
+    },
+    {
+        "repo": "Blueprints",
+        "hash": "'tformat:e601f2f641c43252ccd01a5b4a91046bef587309",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency, remove local dlls'"
+    },
+    {
+        "repo": "FluffyBreakdowns",
+        "hash": "'tformat:e634bb142178cf7f9ceac0365f81dbe74a53ac8c",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency, remove local dlls'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:f9d0c75184faf875b57f5d185c5b3c4a8d2d41c0",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency, remove local dlls'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:1203351ce139d6d21aaafa5afdfff3570e7a58df",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency, remove local dlls'"
+    },
+    {
+        "repo": "StuffedFloors",
+        "hash": "'tformat:227764380f2f499068637408371e0d27a740e5b7",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency, remove local dlls'"
+    },
+    {
+        "repo": "RelationsTab",
+        "hash": "'tformat:143acc81fcab6828169f9a3887cb612a5031773e",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "initial 1.1 update'"
+    },
+    {
+        "repo": "StuffedFloors",
+        "hash": "'tformat:4b272249131040a5bc352219063580aa93de53f8",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add 'Fine Floor' tag for annoying nobles'"
+    },
+    {
+        "repo": "Pharmacist",
+        "hash": "'tformat:1e747f291ef13a539401453c491d24d7bee4e4d9",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "Pharmacist",
+        "hash": "'tformat:dc89f11f5b7bda8656ec1b121b5c31e58785a7dc",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "add harmony dependency'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:b686d7fe68aef23bb1302c301c2e34100a4b7ca9",
+        "date": "2020-02-29",
+        "author": "Fluffy",
+        "message": "test'"
+    },
+    {
+        "repo": "AreaUnlocker",
+        "hash": "'tformat:12122061efaf0b0b1c98d776f38546dde2697f88",
+        "date": "2020-02-28",
+        "author": "Fluffy",
+        "message": "remove additional assemblies - oops!'"
+    },
+    {
+        "repo": "BirdsAndBees",
+        "hash": "'tformat:8d5c0573180b420574ac9967198d7ddbbe9cb3e5",
+        "date": "2020-02-27",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "StuffedFloors",
+        "hash": "'tformat:1f5e23cafb6b77c2c4ab2e7008d4764d45faa073",
+        "date": "2020-02-27",
+        "author": "Fluffy",
+        "message": "initial 1.1 update'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:b3055b6a78113bd5c2b98f4cd7ed7c9c848b23d6",
+        "date": "2020-02-27",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:9014649bfa2a9e2f4079000a867c681150ef9401",
+        "date": "2020-02-27",
+        "author": "Fluffy",
+        "message": "fix issues with TaggedString comparing'"
+    },
+    {
+        "repo": "StuffedFloors",
+        "hash": "'tformat:c607058f7d9652335a0de22ca6687ea671f3fdf3",
+        "date": "2020-02-27",
+        "author": "Fluffy",
+        "message": "fix filth mask'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:04e3d9a97656d4be15e1392065ce753e9ed125f9",
+        "date": "2020-02-27",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "AreaUnlocker",
+        "hash": "'tformat:5cd12cd4f96bfc161404073a47ee601f9ae09976",
+        "date": "2020-02-27",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:ed700d91c7fe6ebe382347f6f45708612831aab1",
+        "date": "2020-02-26",
+        "author": "Fluffy",
+        "message": "initial 1.1 update'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:e7f300db814bef2416ade222d4cc3dab856c0160",
+        "date": "2020-02-26",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:24875469f5a8483376a9e465da6e5d5c6c651013",
+        "date": "2020-02-25",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:3084e832048b6d2fac3aadaece4d0b1dde4b1cbe",
+        "date": "2020-02-25",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "Blueprints",
+        "hash": "'tformat:eb65ae1b3d0a6fd4174cd3188bcdbc67c4511a09",
+        "date": "2020-02-25",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "FluffyBreakdowns",
+        "hash": "'tformat:5a05c88d2a799af6ed51e167bd9ff7fc14494425",
+        "date": "2020-02-21",
+        "author": "Fluffy",
+        "message": "initial 1.1 release'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:1ad6a97d09af2e373e31940ffdb85f1894d2520a",
+        "date": "2020-02-17",
+        "author": "Fluffy",
+        "message": "initial 1.1 'release''"
+    },
+    {
+        "repo": "SpatialPriorities",
+        "hash": "'tformat:e59773066ebad5817a0aeddeb881bc0bee25f91f",
+        "date": "2020-02-12",
+        "author": "Fluffy",
+        "message": "add preview image'"
+    },
+    {
+        "repo": "SpatialPriorities",
+        "hash": "'tformat:2de48615f9ac0d1a83d37beb8961c1a6219d54e0",
+        "date": "2020-02-11",
+        "author": "Fluffy",
+        "message": "release candidateCommented out previous patching approach to spatial priorities.Added saving/loading priorities.Added quick-menu, better icons, colours.'"
+    },
+    {
+        "repo": "SpatialPriorities",
+        "hash": "'tformat:d68b2f17e1d25e72ccfccaecc41641718ce9e591",
+        "date": "2020-02-11",
+        "author": "Fluffy",
+        "message": "add source filesNot sure why the source files ended up as a non-existant submodule.They're here now.'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:0e10dd1f0f70c6f289ce78f570369d77974694a2",
+        "date": "2020-01-28",
+        "author": "Fluffy",
+        "message": "fix two bugs in multiplayer support'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:208139bc587d0f951c3a9768e2cc22604eff91f6",
+        "date": "2020-01-28",
+        "author": "Fluffy",
+        "message": "experimental multiplayer support'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:c3dbcf53397c1e17c9db7d77eee3bbaf30bc5b67",
+        "date": "2020-01-26",
+        "author": "shiuanyue",
+        "message": "Add files via upload'"
+    },
+    {
+        "repo": "Blueprints",
+        "hash": "'tformat:49530f0789b57b79700e6292944b56ffbb556799",
+        "date": "2020-01-26",
+        "author": "Fluffy",
+        "message": "add 'create blueprint from selection' option'"
+    },
+    {
+        "repo": "Blueprints",
+        "hash": "'tformat:1abff7625175e66148c27d8d46a4ed8414339f10",
+        "date": "2020-01-26",
+        "author": "Fluffy",
+        "message": "stop blueprints persisting across different games in the same session'"
+    },
+    {
+        "repo": "FluffyBreakdowns",
+        "hash": "'tformat:fa5995412558adf017822e15f3c4fedff920f344",
+        "date": "2020-01-26",
+        "author": "Fluffy",
+        "message": "add French translation'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:feb26f1018374bfa2e9ccd3c9cae9d595c812226",
+        "date": "2020-01-26",
+        "author": "Fluffy",
+        "message": "switch to using PawnTable_PlayerPawns'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:9244f4900d86ba727fd0be0bd2e829e6e05b9f95",
+        "date": "2020-01-25",
+        "author": "Proxyer",
+        "message": "Pull request: Update Japanese Translation for v1.35.876 (#67)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:3735c3782204b0ec19169d60f45734a0275c07fd",
+        "date": "2020-01-25",
+        "author": "Fluffy",
+        "message": "fix typo in translation for modlist reset setting'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:55a087a5920f84c7ba638116e6a165fb64a9c039",
+        "date": "2020-01-24",
+        "author": "Fluffy",
+        "message": "modlist resets now add modmanager to the list (optionally)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:dbe16ca8f990b68288d2007b6a6e1626a2149981",
+        "date": "2020-01-24",
+        "author": "Fluffy",
+        "message": "stop suppressing the mod mismatch warning dialog'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:7504bb7cf885b411d4280732bfa0611880a930a9",
+        "date": "2020-01-24",
+        "author": "Fluffy",
+        "message": "fix priority colours for all maxPriority settings'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:a3e14e4499802387ecd36485f9d6371421569d5f",
+        "date": "2020-01-23",
+        "author": "Fluffy",
+        "message": "partially fix colony manager high cpu usage'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:cc38816f453cf58defca8bd2ffe5e0c879d77fc9",
+        "date": "2020-01-23",
+        "author": "Fluffy",
+        "message": "add threshold sync for foraging'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:821ced86796c7f3ccb77fc8fce031432b20c4290",
+        "date": "2020-01-21",
+        "author": "Fluffy",
+        "message": "synchronize highhlight between rows'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:aeb25f97e45257b65cffcd3cabeb7b95ee9ad79f",
+        "date": "2020-01-21",
+        "author": "Fluffy",
+        "message": "fix row rect position (closes #127)'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:c40f02df26b87c8b847efc4414d49973d21e457c",
+        "date": "2020-01-21",
+        "author": "Fluffy",
+        "message": "synchronize highlight between columns'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:63cb99315e0ae11f89eae4099e2fe79c03a2553e",
+        "date": "2020-01-21",
+        "author": "Fluffy",
+        "message": "add default priority setting (closes #122)'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:aa612f5c6f2e49a08b058fb559e250200be818a4",
+        "date": "2020-01-20",
+        "author": "Fluffy",
+        "message": "make area restiction logic match UI logic'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:c8f2850357e68f557379d06629ccd0db9096074d",
+        "date": "2020-01-20",
+        "author": "Fluffy",
+        "message": "change fixed percentage growth to job interval period'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:0af8b796ac5920fcef8a43e5f4f69222a0be8b91",
+        "date": "2020-01-19",
+        "author": "Fluffy",
+        "message": "fix tip translation'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:837c92e18f87e9be8900f7fa7185b51c9307d7bd",
+        "date": "2020-01-19",
+        "author": "Silverside",
+        "message": "Fixed UI Scaling (#125)'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:c41edb8de2c944e78eba002087d0f25b5e4775da",
+        "date": "2020-01-19",
+        "author": "Fluffy",
+        "message": "fix label button size (resolves #123)'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:b13abf5d369d02787cc3497a9860b6a99f63917b",
+        "date": "2020-01-18",
+        "author": "okradonkey",
+        "message": "Fix string error (#45)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:10cf1216376db8657cb67982bf15ae4cbe4c4cba",
+        "date": "2020-01-18",
+        "author": "Nikita",
+        "message": "Add russian translation. (#64)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:ab79af33c332604bfe680011a683b679a46d9cc4",
+        "date": "2020-01-18",
+        "author": "Patrick Schmitt",
+        "message": "Added German translation (#62)'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:2b2f01469a342e865d662f2d1a5818d59f97bb05",
+        "date": "2020-01-18",
+        "author": "Fluffy",
+        "message": "add eggy progress bar'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:c5f23ef98074438a7cf77e3313888ba19ffa20aa",
+        "date": "2020-01-18",
+        "author": "CrapoFR",
+        "message": "French translation (#40)'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:5e168412e85c6e5bb66452498f176d7ed8d49c89",
+        "date": "2020-01-18",
+        "author": "Fluffy",
+        "message": "simplified egg progress indicator, use icon instead of label'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:89da83dbe4494e63130cf86779944239ff180c17",
+        "date": "2020-01-18",
+        "author": "CrapoFR",
+        "message": "French translation - update (#149)'"
+    },
+    {
+        "repo": "Pharmacist",
+        "hash": "'tformat:f5a9af69e7dd1da3f1ebecd12b6582cbc0839703",
+        "date": "2020-01-18",
+        "author": "CrapoFR",
+        "message": "French translation (#23)'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:4104ae02501a4cc16ed2d480edd39f8ffdf27fce",
+        "date": "2020-01-15",
+        "author": "Bryan Aldrich",
+        "message": "add sorting capabilities'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:3188244f2ce7a282b74f364077a201556847b040",
+        "date": "2020-01-14",
+        "author": "Bryan Aldrich",
+        "message": "Add egg laying progress + fertilized / non-fertilized status'"
+    },
+    {
+        "repo": "ResearchTree",
+        "hash": "'tformat:a4ca08f6f2341858c79dd8a0d46f8c9ca719d09d",
+        "date": "2019-10-27",
+        "author": "Silverside",
+        "message": "Fixed UI Scaling'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:ffd77e202de2c624538174317e71a2f02f4bb22f",
+        "date": "2019-10-09",
+        "author": "maarxx",
+        "message": "Change Order to Milk -> Shear -> Train'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:b638b376dd0bf67e6808f74e65da3b685c1b1b57",
+        "date": "2019-10-09",
+        "author": "maarxx",
+        "message": "Add Feature to Restrict Animals Ready for Milking or Shearing'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:cdc8702e3cac2d4c8863dee7e367a15f58fff3b3",
+        "date": "2019-10-09",
+        "author": "maarxx",
+        "message": "Add Husbandry job option to Unassign Training'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:a0c451a56e6a1672b5a5ab99c968a0347f054356",
+        "date": "2019-09-26",
+        "author": "maarxx",
+        "message": "Fix settings not persisting, fix resultant 'No language' translation errors. (#145)'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:91f766d26e858c2594deda7fd5b6eedd0baeadd2",
+        "date": "2019-09-11",
+        "author": "Fluffy",
+        "message": "up brightness of disease indicator colours'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:28f31a9edb7378632d6e71ebf962f0fdfcbe7e5f",
+        "date": "2019-08-13",
+        "author": "Fluffy",
+        "message": "'freeze' pawn label column when scrolling horizontally'"
+    },
+    {
+        "repo": "WorkTab",
+        "hash": "'tformat:44f0446c28bb95a50052320dd64c1487eea343cc",
+        "date": "2019-08-13",
+        "author": "Fluffy",
+        "message": "changed modifier key detection approach'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:5f1d6364aa892edea98b109032fb1361fed17a95",
+        "date": "2019-08-09",
+        "author": "Fluffy",
+        "message": "revert draggability fix'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:9722e83e74d93422dd6a7b7c84b7ef86ad57430e",
+        "date": "2019-08-06",
+        "author": "Fluffy",
+        "message": "correctly show/hide add/remove mod from modlist controls'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:9e0ea8f1b602c8df25f604ed2d04736b9da67c96",
+        "date": "2019-08-06",
+        "author": "Fluffy",
+        "message": "keep settings file when updating a local copy'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:b189fcf0a2805033cffa426943df2acaf9032f4c",
+        "date": "2019-08-06",
+        "author": "Fluffy",
+        "message": "simplify filename sanitizer'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:8da4e5b86affe5c9a589bb0fcb984478b9e243b6",
+        "date": "2019-08-06",
+        "author": "Fluffy",
+        "message": "add window dragging'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:c75a45bf9f4b706c84059a5eb9dcf858ae1ceb45",
+        "date": "2019-08-06",
+        "author": "Fluffy",
+        "message": "cancel resizer on mouseUp outside of game window and game focus loss'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:f717c8fb92c081e648d8f12973ad8c14652d9807",
+        "date": "2019-08-04",
+        "author": "Fluffy",
+        "message": "signifcantly increase fps on livestock tab'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:b7bd03ce18bb1aa9f136582ae46618a33d837b63",
+        "date": "2019-08-04",
+        "author": "Fluffy",
+        "message": "remove debug output'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:34c57e2764a7067a5689c365552f133ef64610ea",
+        "date": "2019-08-03",
+        "author": "Fluffy",
+        "message": "show disease progress marker for non-immunizable afflictions and diseases (e.g. toxic buildup, artery blockage)'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:7a04374b45d226b052c3bc8255e7e968a212ecd7",
+        "date": "2019-08-03",
+        "author": "Fluffy",
+        "message": "add failreason feedback to right click on manager desk'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:c569d503e9bcf1511e937fcc79edde914d0f79ad",
+        "date": "2019-08-03",
+        "author": "Fluffy",
+        "message": "fix potential nullrefs in mass medical assignment, improve modifier key sensitivity'"
+    },
+    {
+        "repo": "BirdsAndBees",
+        "hash": "'tformat:1f5575fa3333cb7d981f1fbf127479c0b8801158",
+        "date": "2019-08-03",
+        "author": "Fluffy",
+        "message": "add minimum capacity level for fertility (0.15)'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:4e32b0339be6a6cd3d5b9a61d5b2c163f9b0b640",
+        "date": "2019-08-02",
+        "author": "Jorge Martínez",
+        "message": "Added Spanish and Latin Spanish translations (#25)'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:749d04164f72384e9e73c6deeea64a614b6b6769",
+        "date": "2019-08-02",
+        "author": "enescaglayan",
+        "message": "Turkish translation. (#48)'"
+    },
+    {
+        "repo": "StuffedFloors",
+        "hash": "'tformat:9fd8dc2b0e4f8ec11296884c6e801dafe2d8f9b3",
+        "date": "2019-08-02",
+        "author": "Jorge Martínez",
+        "message": "Add Spanish and Latin American Spanish translations (#19)'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:cc85a6237ed7e133fd347f9e739791eb6cb66b74",
+        "date": "2019-08-02",
+        "author": "Jorge Martínez",
+        "message": "Added Latin American Spanish translation (#37)'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:912a7ada90c45e272c7ce7400e67282fa2d54540",
+        "date": "2019-08-02",
+        "author": "Jorge Martínez",
+        "message": "Added Spanish and Latin Spanish translations (#44)'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:17d5289f3ddc9f176bf5bb3aed9ff216655d54f7",
+        "date": "2019-08-02",
+        "author": "Proxyer",
+        "message": "Update Japanese Translation for v3.4.71 (#24)'"
+    },
+    {
+        "repo": "Blueprints",
+        "hash": "'tformat:d1eedf11c08ca29dec1ce325c3127434de2c70c1",
+        "date": "2019-07-31",
+        "author": "Fluffy",
+        "message": "dont designate fogged cells'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:e5f762d937a580d04cb63000633e194519c77966",
+        "date": "2019-07-30",
+        "author": "Fluffy",
+        "message": "use less spammy colour picker'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:02f5bdf2bfb4c1c12828dc7f8650ac3b8a515225",
+        "date": "2019-07-25",
+        "author": "Fluffy",
+        "message": "remove invalid jobs after loading'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:ba6b9ed0314d70a26d155ba084b551e273967719",
+        "date": "2019-07-25",
+        "author": "Fluffy",
+        "message": "fix error when saving job without changing update interval'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:1ca11b4ec7d66697da10d0f2c9934101003918f9",
+        "date": "2019-07-24",
+        "author": "Fluffy",
+        "message": "increase default fame cooldown'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:eb2d5542db5b5dd1f3375c63d4395dee5d5bb9ed",
+        "date": "2019-07-24",
+        "author": "Fluffy",
+        "message": "fix nullref in ShouldDoNow. whoops!'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:9011dcd1865f6e37892be37ec984eb37a9dc3e03",
+        "date": "2019-07-24",
+        "author": "Fluffy",
+        "message": "add cinematic cameras'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:572cda92bcec0bf8794f34b0bf908438b3b387f7",
+        "date": "2019-07-24",
+        "author": "Fluffy",
+        "message": "never follow the same thing twice in a row'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:21557d151b5212212f0aaba9bb22c82e48922269",
+        "date": "2019-07-24",
+        "author": "Fluffy",
+        "message": "fix posibble nullref in MedicalCare.get_OverallCare'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:5c86dad2df2ebd360672664b5f2fa1f9b7475b8c",
+        "date": "2019-07-24",
+        "author": "Fluffy",
+        "message": "add off button for camera, turn off on loading another game.'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:2a5cad5137d505b059f3ba6f5d7b86b4c57be96a",
+        "date": "2019-07-24",
+        "author": "Fluffy",
+        "message": "set default interval to daily, add day/calendar widgets'"
+    },
+    {
+        "repo": "MedicalTab",
+        "hash": "'tformat:fec82cc804169245b5b1d9662c134a7995316b9a",
+        "date": "2019-07-24",
+        "author": "enescaglayan",
+        "message": "Added Turkish translation (#34)'"
+    },
+    {
+        "repo": "FollowMe",
+        "hash": "'tformat:98183cd2e77983ac199a38d40ed38a5e6f50e0c0",
+        "date": "2019-07-24",
+        "author": "Fluffy",
+        "message": "one camera button is enough'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:4e556ad19158a658dda671aaa941b1bbc97cbd52",
+        "date": "2019-07-21",
+        "author": "Fluffy",
+        "message": "add alerts for invalid handler assignments'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:acf05164ef40e5f277c5abef76bd5283fb4e1902",
+        "date": "2019-07-21",
+        "author": "Fluffy",
+        "message": "remove trees that do not yield any wood from forestry tab'"
+    },
+    {
+        "repo": "ColonyManager",
+        "hash": "'tformat:06bf6915ca3d6a97e324dbd60ec317f9fcd080ac",
+        "date": "2019-07-21",
+        "author": "Fluffy",
+        "message": "code style cleanup'"
+    },
+    {
+        "repo": "AreaUnlocker",
+        "hash": "'tformat:89767eb6fb97e331aabec604a6b3db9913efd6a5",
+        "date": "2019-07-21",
+        "author": "Fluffy",
+        "message": "implement area reordering'"
+    },
+    {
+        "repo": "AnimalTab",
+        "hash": "'tformat:80aa8b98e24a4b0366b6d250a55ef3c01b9fda13",
+        "date": "2019-07-20",
+        "author": "Fluffy",
+        "message": "add handler settings'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:45f7512560c4c618d4eb0a4ac9011d675de9b77b",
+        "date": "2019-06-06",
+        "author": "Fluffy",
+        "message": "sanitize local mod names for uri reserved characters'"
+    },
+    {
+        "repo": "ModManager",
+        "hash": "'tformat:ccb4fcdc5e047854e70f8790418a340eb4c30d30",
+        "date": "2019-06-05",
+        "author": "Fluffy",
+        "message": "fail early when non-modlist xml is read'"
+    }
+]
