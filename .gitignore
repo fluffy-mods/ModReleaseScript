@@ -1,3 +1,4 @@
 config*.json
 node_modules
 git_token.js
+changenotes.json

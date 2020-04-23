@@ -495,7 +495,7 @@ function gitCommitPush(cb) {
     runGitCommand([
       "commit",
       "-am",
-      `'Release ${getVersionString()} [nolog]'`,
+      `"Release ${getVersionString()} [nolog]"`,
     ]).stylize("green")
   );
   console.log(runGitCommand(["push"]).stylize("green"));
@@ -964,7 +964,10 @@ function getDescription(
   if (mod.contributors && Object.keys(mod.contributors).length) {
     var desc_contributors = "# Contributors";
     for (contributor in mod.contributors) {
-      if (mod.contributors.hasOwnProperty(contributor))
+      if (
+        mod.contributors.hasOwnProperty(contributor) &&
+        mod.contributors[contributor]
+      )
         desc_contributors += `\n - ${contributor}:\t${mod.contributors[contributor]}`;
     }
     desc_parts.push(desc_contributors);
@@ -1175,14 +1178,24 @@ function getContributors(contributors = {}) {
 
   // get raw list of authors sorted by their number of commits
   var raw = runGitCommand(["shortlog", "HEAD", "-ns"]);
-
   // use some regex magic to extract the authors
   // NOTE: Use a .mailmap file in the root repository dir to map obsolete/secondary usernames.
   var pattern = /^\s*\d+\s+(.*)$/gm;
   match = pattern.exec(raw);
   while (match != null) {
-    if (match[1] != "Fluffy" && !contributors.hasOwnProperty(match[1]))
-      contributors[match[1]] = "";
+    var author = match[1];
+    if (author != "Fluffy" && !contributors.hasOwnProperty(author)) {
+      // make a rough attempt at filling in their contributions.
+      var commits = runGitCommand(
+        ["log", `--author="${author}"`, `--pretty="tformat:%s"`],
+        false,
+        true
+      )
+        .split("\n")
+        .join(", ");
+      contributors[author] = commits || "";
+      console.log({ author, commits });
+    }
     match = pattern.exec(raw);
   }
 
@@ -1243,12 +1256,23 @@ function getCurrentGitTag() {
   return runGitCommand(["describe", "--tags", "--abbrev=0"]);
 }
 
-function runGitCommand(args, cwd) {
-  var output = spawn("git", args, {
+function runGitCommand(args, cwd, debug = false) {
+  var process = spawn("git", args, {
     cwd: cwd || paths.source,
     encoding: "utf-8",
-  }).stdout.trim();
-  if (verbosity) console.log("Running git command: ", args, "Output:", output);
+    shell: true,
+  });
+  var output = process.stdout.trim();
+  if (verbosity || debug)
+    console.log({
+      gitCommand: {
+        cwd: cwd || paths.source,
+        args,
+        command: `git ${args.join(" ")}`,
+        process,
+        output: process.output.join("\n"),
+      },
+    });
   return output;
 }
 
