@@ -369,6 +369,7 @@ function updateAbout(cb) {
       // update fields
       result.ModMetaData.name = mod.name;
       result.ModMetaData.packageId = mod.packageId;
+      result.ModMetaData.url = config.forum_thread;
       delete result.ModMetaData.targetVersion; // blank it out.
       result.ModMetaData.supportedVersions = {
         li: getRimWorldVersion(false, true),
@@ -671,17 +672,16 @@ function createSteamRelease(cb) {
     return cb();
   }
 
-  return steamWorkshopUpdate(
-    paths.target,
-    mod.changenote,
-    getDescription("steam"),
-    false
-  )
+  let description = getDescription("steam");
+  return steamWorkshopUpdate(paths.target, mod.changenote, description, false)
     .then((_) => {
       console.log("Steam release completed".stylize("green"));
       return cb();
     })
-    .catch(cb);
+    .catch((err) => {
+      console.error(err);
+      return cb(err);
+    });
 }
 
 function updateManifest(cb) {
@@ -840,9 +840,9 @@ function mergeVersions(cb) {
   MergeVersions(paths.source, paths.target, filter, mock, true, verbosity)
     .then((_) => {
       console.log(`Created merged release at ${paths.target}`.stylize("green"));
-      cb();
+      return cb();
     })
-    .catch((err) => cb(err));
+    .catch(cb);
 }
 
 function createArchive(cb) {
@@ -993,9 +993,23 @@ function getDescription(
   var desc = desc_parts.join("\n\n");
 
   // convert if needed
-  if (format == "steam") return md2bbc(desc);
+  if (format == "steam") {
+    desc = imageHeaders(desc);
+    desc +=
+      "[![Twitch.tv/FluffierThanThou](https://banners.karel-kroeze.nl/preview.png)](https://twitch.tv/FluffierThanThou)";
+    return md2bbc(imageHeaders(desc));
+  }
   if (format == "rimworld") return md2rw(desc);
-  if (format == "github") return desc;
+  if (format == "github") return imageHeaders(desc);
+}
+
+function imageHeaders(desc) {
+  // replace `# some header` with image headers
+  return desc.replace(/# (.*?)$/gm, (_, match) => {
+    return `\n  \n  \n![${match.trim()}](https://banners.karel-kroeze.nl/title/${encodeURIComponent(
+      match.trim()
+    )}.png)`;
+  });
 }
 
 function md2bbc(text) {
@@ -1184,7 +1198,11 @@ function getContributors(contributors = {}) {
   match = pattern.exec(raw);
   while (match != null) {
     var author = match[1];
-    if (author != "Fluffy" && !contributors.hasOwnProperty(author)) {
+    if (
+      author != "Fluffy" &&
+      author != "Kroeze" &&
+      !contributors.hasOwnProperty(author)
+    ) {
       // make a rough attempt at filling in their contributions.
       var commits = runGitCommand(
         ["log", `--author="${author}"`, `--pretty="tformat:%s"`],
@@ -1238,7 +1256,7 @@ function getChangeNotes() {
     .split("\n")
     .map((line) => {
       [hash, date, author, message] = line.split("||").map((p) => p.trim());
-      date = new moment(date).format("YYYY-MM-DD");
+      date = new moment(date).format("YYYY-MM-DD HH:MM");
       return {
         repo: mod ? mod.git_repo : undefined,
         hash,

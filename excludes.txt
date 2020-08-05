@@ -1,5 +1,5 @@
 .git
-/Source
+Source
 .mailmap
 .pdb
 Readme.md
@@ -7,5 +7,5 @@ Readme.md
 .vs
 dependencies.json
 .psd
-/packages
+packages
 .sln
