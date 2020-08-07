@@ -70,7 +70,7 @@ async function doCreate(version) {
       const git = Git(folder);
       await git.checkoutLocalBranch(version);
       await git.push("origin", version, { "--set-upstream": true });
-      console.log(`Created branch ${verison} for ${folder}.`);
+      console.log(`Created branch ${version} for ${folder}.`);
     } catch (err) {
       console.error(
         `Failed to create branch '${version}' for '${folder}': \n${err}`
