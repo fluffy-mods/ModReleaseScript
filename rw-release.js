@@ -70,6 +70,7 @@ async function doCreate(version) {
       const git = Git(folder);
       await git.checkoutLocalBranch(version);
       await git.push("origin", version, { "--set-upstream": true });
+      console.log(`Created branch ${verison} for ${folder}.`);
     } catch (err) {
       console.error(
         `Failed to create branch '${version}' for '${folder}': \n${err}`
@@ -86,6 +87,7 @@ async function doUse(version) {
   for (let folder of folders) {
     try {
       const git = Git(folder);
+      if (!(await git.branch()).all.includes(version)) await doCreate(version);
       const remote = (await git.getRemotes(true)).find(
         (r) => r.name == "origin"
       );
@@ -98,6 +100,7 @@ async function doUse(version) {
         name: repo,
         default_branch: version,
       });
+      console.log(`Branch ${version} set as default branch for ${folder}.`);
     } catch (err) {
       console.error(
         `Failed to make branch '${version}' the default for '${folder}': \n${err}`
