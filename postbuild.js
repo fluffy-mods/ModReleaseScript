@@ -996,20 +996,39 @@ function getDescription(
   if (format == "steam") {
     desc = imageHeaders(desc);
     desc +=
-      "[![Twitch.tv/FluffierThanThou](https://banners.karel-kroeze.nl/preview.png)](https://twitch.tv/FluffierThanThou)";
-    return md2bbc(imageHeaders(desc));
+      "\n  \n  \n  [![Twitch.tv/FluffierThanThou](https://banners.karel-kroeze.nl/preview.png)](https://twitch.tv/FluffierThanThou)";
+    return md2bbc(desc);
   }
   if (format == "rimworld") return md2rw(desc);
   if (format == "github") return imageHeaders(desc);
 }
 
+/**
+ * @param {string} desc
+ */
 function imageHeaders(desc) {
   // replace `# some header` with image headers
-  return desc.replace(/# (.*?)$/gm, (_, match) => {
-    return `\n  \n  \n![${match.trim()}](https://banners.karel-kroeze.nl/title/${encodeURIComponent(
-      match.trim()
-    )}.png)`;
-  });
+  desc = desc
+    .replace(/# (.*?)$/gm, replacer)
+    .replace(/\.(png|gif|jpg|svg)\)(?:\r\n)+/gm, removeExtraLines);
+  // console.log({ desc });
+  return desc;
+}
+
+function removeExtraLines(substring, extension) {
+  const replacement = `.${extension})  \n`;
+  return replacement;
+}
+
+/**
+ * @param {string} substring
+ * @param {string} match
+ */
+function replacer(substring, match) {
+  const replacement = `![${match.trim()}](https://banners.karel-kroeze.nl/title/${encodeURIComponent(
+    match.trim()
+  )}.png)`;
+  return replacement;
 }
 
 function md2bbc(text) {
@@ -1017,16 +1036,25 @@ function md2bbc(text) {
 
   var html = md2html(text);
   var bbcode = md2bbc.bbc_parser.feed(html).toString();
+  var rawbb = bbcode;
 
   // steam does not support lists.
   // remove [ul] tags, including newline after the tag
   bbcode = bbcode.replace(new RegExp(/\[\/?ul\]\n?/, "g"), "");
 
   // somwhere in all of this, newlines an paragraphs get lost.
-  // as a quick fix, double all newlines and add a newline after closing b tags.
+  // as a quick fix, double all newlines not preceded by a ],
+  // and add a newline after closing b tags.
   bbcode = bbcode.replace(
-    new RegExp(/\n|(\[\/b\])/, "g"),
+    new RegExp(/(?<!\])\n|(\[\/b\])/, "g"),
     (match) => match + "\n"
+  );
+
+  // manually insert extra whitespace in front of banner images.
+  // this is hacky AF
+  bbcode = bbcode.replace(
+    /(\n)*\[img\]https:\/\/banners\.karel-kroeze\.nl/gm,
+    "\n\n\n\n[img]https://banners.karel-kroeze.nl"
   );
 
   // replace [li] tags
@@ -1040,7 +1068,6 @@ function md2bbc(text) {
   bbcode = bbcode.replace(new RegExp(/\[\/b\]\n+/, "g"), "[/b]\n");
 
   if (verbosity > 1) console.log(text, html, bbcode);
-
   return bbcode;
 }
 
