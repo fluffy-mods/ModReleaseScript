@@ -27,7 +27,7 @@
     "ncp": "^2.0.0",
     "parse-git-config": "^1.1.0",
     "rimraf": "^2.5.4",
-    "simple-git": "^1.131.0",
+    "simple-git": "^3.16.0",
     "simple-vdf": "file:../../vdf-parser/javascript",
     "striptags": "^2.2.1",
     "xml2js": "^0.4.17"
